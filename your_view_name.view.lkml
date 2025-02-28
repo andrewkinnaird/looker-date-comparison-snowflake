@@ -13,7 +13,7 @@ view: your_view_name {
   extends: [_date_comparison]
 
   dimension: event_raw{
-    sql:  ${your_date_dimension_time::datetime} ;;
+    sql:  ${your_table}.your_date ;;
     type: date_raw
     hidden: yes
   }
