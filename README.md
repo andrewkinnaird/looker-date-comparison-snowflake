@@ -1,4 +1,6 @@
-# Date Comparison Block
+# Date Comparison Block for Snowflake Database Connected to Looker
+
+### This is a copy of looker-date-comparison by teamdatatonic updating the _date_comparison.view.lkml file to work with Looker instances connected to Snowflake
 
 ## What is this block?
 This block allows for comparisons from one date period to another, or from one date period to a number of periods. It provides extensive flexibility in comparing date ranges, and presenting these back as a single visualisation.
